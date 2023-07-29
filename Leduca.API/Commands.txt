@@ -1,0 +1,3 @@
+Scaffold-DbContext "Server=localhost;Database=Leduca;Trusted_Connection=True;TrustServerCertificate=true;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir DbModels -NoOnConfiguring -Force
+dotnet msbuild -t:Mapster
+dotnet msbuild -t:CleanGenerated
